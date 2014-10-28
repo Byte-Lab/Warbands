@@ -1,3 +1,3 @@
-[submodule "api"]
-	path = api
+[submodule "WarbandsAPI"]
+	path = WarbandsAPI
 	url = https://github.com/Byte-Lab/WarbandsAPI.git
