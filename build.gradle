@@ -18,14 +18,14 @@ sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
 group = 'io.github.byte-lab'
-archivesBaseName = 'warbands-api'
+archivesBaseName = 'warbands'
 version = '1.0'
 
-ext.projectName = 'WarbandsAPI'
+ext.projectName = 'Warbands'
 ext.inceptionYear = '2014'
 ext.packaging = 'jar'
 ext.url = 'http://bitcodermc.github.io/'
-ext.description = 'Warbands Plugin API'
+ext.description = 'Warbands Plugin'
 ext.organization = 'Byte-Lab'
 
 ext.buildNumber = project.hasProperty("buildNumber") ? '#' + buildNumber : 'SNAPSHOT'
