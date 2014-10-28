@@ -1,5 +1,6 @@
 Warbands
 ========
+[![Build Status](https://snap-ci.com/Byte-Lab/Warbands/branch/master/build_image)](https://snap-ci.com/Byte-Lab/Warbands/branch/master)
 
 Public repository for the Warbands plugin
 
