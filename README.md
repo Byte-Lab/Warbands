@@ -16,4 +16,7 @@ IRC: irc.esper.net:6667 #warbands
 
 #####How to set up your workspace:
 
-Clone the project. Then, in the projects directory run `gradlew idea` or `gradlew eclipse` depending on your IDE. You now have all the necessary files to start developing.
+Clone the project with `git clone https://github.com/Byte-Lab/Warbands.git --recursive`
+Then, in the projects directory run `gradlew idea` or `gradlew eclipse` depending on your IDE. You now have all the necessary files to start developing.
+
+To update the submodules, simply run `git submodule update --init`.
