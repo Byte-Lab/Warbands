@@ -36,7 +36,7 @@ ext.commit = project.hasProperty("commit") ? commit : 'unknown'
 jar.manifest.mainAttributes(
 	"Built-By": System.properties['user.name'],
 	"Created-By": System.properties['java.vm.version'] + " (" + System.properties['java.vm.vendor'] + ")",
-	"Implementation-Title": name,
+	"Implementation-Title": projectName,
 	"Implementation-Version": version + "-ci." + ciSystem + "-" + buildNumber + " (commit." + commit + ")",
 	"Implementation-Vendor": url
 )
@@ -49,8 +49,7 @@ repositories {
 }
 
 dependencies {
-	compile 'org.apache.logging.log4j:log4j-api:2.0-beta9'
-	compile group: 'org.bukkit', name: 'bukkit', version: '1.7.9-R0.2'
+	compile project(':WarbandsAPI')
     testCompile group: 'junit', name: 'junit', version: '4.+'
 }
 
