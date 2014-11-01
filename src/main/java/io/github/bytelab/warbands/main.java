@@ -21,11 +21,9 @@ package io.github.bytelab.warbands;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class main extends JavaPlugin{
-
-    Logger logger = Logger.getLogger("Warbands");
 
     public void onEnable(){
 
@@ -37,6 +35,10 @@ public class main extends JavaPlugin{
 
 
 
+    }
+    
+    public void toLog(Level lvl, String msg) {
+        getLogger(lvl, msg);
     }
 
 }
