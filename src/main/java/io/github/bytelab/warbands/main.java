@@ -38,7 +38,7 @@ public class main extends JavaPlugin{
     }
     
     public void toLog(Level lvl, String msg) {
-        getLogger(lvl, msg);
+        getLogger().log(lvl, msg);
     }
 
 }
